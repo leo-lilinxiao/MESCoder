@@ -1,0 +1,30 @@
+{
+  "nodes": [
+    {
+      "id": "root",
+      "type": "Page",
+      "depth": 0,
+      "bbox": [0.0, 0.0, 1.0, 1.0],
+      "text": "",
+      "img_desc": "A full webpage containing a navigation bar and a content card."
+    },
+    {
+      "id": "nav",
+      "type": "Navigation",
+      "depth": 1,
+      "parent_id": "root",
+      "bbox": [0.0, 0.0, 1.0, 0.12],
+      "text": "MESCoder",
+      "img_desc": "Top navigation bar."
+    },
+    {
+      "id": "card",
+      "type": "FeatureCard",
+      "depth": 1,
+      "parent_id": "root",
+      "bbox": [0.18, 0.22, 0.82, 0.74],
+      "text": "Self-corrective project generation",
+      "img_desc": "Central content card with heading and paragraph text."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Training and evaluation artifacts
+outputs/
+results/
+runs/
+
+# Front-end build artifacts
+node_modules/
+dist/
+build/
+.angular/
+.next/
+.nuxt/
+coverage/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

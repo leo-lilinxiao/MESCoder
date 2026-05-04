@@ -1,0 +1,11 @@
+{
+  "frameworks": ["react", "vue", "angular"],
+  "max_budget": 20,
+  "offline_training": {
+    "status": "reference scaffold only"
+  },
+  "online_training": {
+    "algorithm": "PPO",
+    "status": "mock sanity-check configuration"
+  }
+}
